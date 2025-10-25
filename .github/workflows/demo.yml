@@ -10,7 +10,7 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v4
     - name: run one line scripts
-      run: pwd;ls -ltr
+      run: pwd;ls -ltr ; chmod 775 c1t.sh ; ./c1t.sh
       
 
 

@@ -1,5 +1,15 @@
 # This is a basic workflow to help you get started with Actions
 name: CI
+on: 
+  push:
+     branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     -name: run one line scripts
+      run: echo "Hello world !!!"
+      
 
 
 

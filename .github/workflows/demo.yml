@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: run one line scripts
-       run:  ./c1t.sh
+       run:  pwd; ls -ltr
       
 
 
